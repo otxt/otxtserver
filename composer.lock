@@ -1,0 +1,175 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "0e7714e3e53c3ade3f028071a6fc8b0d",
+    "packages": [
+        {
+            "name": "phpish/app",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpish/app.git",
+                "reference": "47c0cc7e372c8453835e20d9e497227e0b95cf65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpish/app/zipball/47c0cc7e372c8453835e20d9e497227e0b95cf65",
+                "reference": "47c0cc7e372c8453835e20d9e497227e0b95cf65",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sandeep Shetty",
+                    "email": "sandeep.shetty@gmail.com",
+                    "homepage": "http://sandeep.shetty.in",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Request Handler",
+            "homepage": "https://github.com/phpish/app",
+            "time": "2012-10-25 20:37:29"
+        },
+        {
+            "name": "phpish/http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpish/http.git",
+                "reference": "1b8345b343422f8387a173656d71d4bf307ab85f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpish/http/zipball/1b8345b343422f8387a173656d71d4bf307ab85f",
+                "reference": "1b8345b343422f8387a173656d71d4bf307ab85f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sandeep Shetty",
+                    "email": "sandeep.shetty@gmail.com",
+                    "homepage": "http://sandeep.shetty.in",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Convenience wrapper around cURL",
+            "homepage": "https://github.com/phpish/http",
+            "keywords": [
+                "api",
+                "curl",
+                "http"
+            ],
+            "time": "2013-01-06 21:45:32"
+        },
+        {
+            "name": "phpish/mysql",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpish/mysql.git",
+                "reference": "2c2a7b83aa9707510b72218774698a59eb28dd60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpish/mysql/zipball/2c2a7b83aa9707510b72218774698a59eb28dd60",
+                "reference": "2c2a7b83aa9707510b72218774698a59eb28dd60",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sandeep Shetty",
+                    "email": "sandeep.shetty@gmail.com",
+                    "homepage": "http://sandeep.shetty.in",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Convenience wrapper around Mysqli",
+            "homepage": "https://github.com/phpish/mysql",
+            "keywords": [
+                "database",
+                "db",
+                "mysql",
+                "mysqli"
+            ],
+            "time": "2012-11-10 08:14:13"
+        },
+        {
+            "name": "phpish/template",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpish/template.git",
+                "reference": "62dfb46886254f855956e191b4d8c1ab464c1c86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpish/template/zipball/62dfb46886254f855956e191b4d8c1ab464c1c86",
+                "reference": "62dfb46886254f855956e191b4d8c1ab464c1c86",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sandeep Shetty",
+                    "email": "sandeep.shetty@gmail.com",
+                    "homepage": "http://sandeep.shetty.in",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Capture output of and compose plain old PHP templates",
+            "homepage": "https://github.com/phpish/template",
+            "time": "2012-10-26 20:23:14"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "phpish/app": 20,
+        "phpish/template": 20,
+        "phpish/mysql": 20,
+        "phpish/http": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
